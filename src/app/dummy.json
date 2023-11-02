@@ -1,0 +1,84 @@
+[
+    {
+      "name": "Laverne Cox",
+      "quote": "Nossa luta não é apenas pela igualdade trans, mas pela igualdade para todas as pessoas.",
+      "media": "Atuação",
+      "img": "url_da_imagem1",
+      "isBlack": true,
+      "isRainbow": true
+    },
+    {
+      "name": "RuPaul",
+      "quote": "Se você não pode amar a si mesmo, como diabos você vai amar outra pessoa?",
+      "media": "Televisão",
+      "img": "url_da_imagem2",
+      "isBlack": false,
+      "isRainbow": true
+    },
+    {
+      "name": "Billy Porter",
+      "quote": "Eu não visto para ser um ícone da moda. Eu visto para ser eu mesmo.",
+      "media": "Atuação",
+      "img": "url_da_imagem3",
+      "isBlack": true,
+      "isRainbow": true
+    },
+    {
+      "name": "Janelle Monáe",
+      "quote": "A diversidade é importante, mas a inclusão é ainda mais importante.",
+      "media": "Música",
+      "img": "url_da_imagem4",
+      "isBlack": true,
+      "isRainbow": true
+    },
+    {
+      "name": "Tracy Chapman",
+      "quote": "É uma revolução interior. Você se liberta ou não. Ninguém mais pode fazer isso por você.",
+      "media": "Música",
+      "img": "url_da_imagem5",
+      "isBlack": true,
+      "isRainbow": false
+    },
+    {
+      "name": "Audre Lorde",
+      "quote": "Sua silêncio não irá protegê-lo.",
+      "media": "Literatura",
+      "img": "url_da_imagem6",
+      "isBlack": true,
+      "isRainbow": true
+    },
+    {
+      "name": "James Baldwin",
+      "quote": "A história não é o passado. É o presente. Nós carregamos nossa história conosco. Nós somos nossos histórias.",
+      "media": "Literatura",
+      "img": "url_da_imagem7",
+      "isBlack": true,
+      "isRainbow": true
+    },
+    {
+      "name": "Marsha P. Johnson",
+      "quote": "Ninguém dá a você direitos. Você apenas toma.",
+      "media": "Ativismo",
+      "img": "url_da_imagem8",
+      "isBlack": true,
+      "isRainbow": true
+    },
+    {
+      "name": "Bayard Rustin",
+      "quote": "Nosso objetivo não é construir um movimento negro, mas construir um movimento para todos os americanos.",
+      "media": "Ativismo",
+      "img": "url_da_imagem9",
+      "isBlack": true,
+      "isRainbow": true
+    },
+    {
+      "name": "Angela Davis",
+      "quote": "No momento em que entendi o movimento LGBT, eu soube que estava comprometida.",
+      "media": "Ativismo",
+      "img": "url_da_imagem10",
+      "isBlack": true,
+      "isRainbow": true
+    }
+    
+  ]
+  
