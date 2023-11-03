@@ -41,8 +41,8 @@ function Home() {
   return (
     <>
       <div className="flex flex-col h-screen justify-center items-center">
-        <h1 className="text-7xl text-gray-700">"{quote}"</h1>
-        <p className="text-3xl">{name}</p>
+        <h1 className="text-7xl px-16 md:text-5xl lg:text-7xl text-gray-700 md:mb-4 lg:mb-0 ">"{quote}"</h1>
+        <p className="text-2xl md:text-5xl">{name}</p>
         {isBlack && <FaFistRaised />}
         {isRainbow && <BsRainbow />}
         <button className="btn btn-primary" onClick={handleNewQuoteClick}>Nova Citação</button>
