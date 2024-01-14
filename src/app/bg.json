@@ -1,0 +1,19 @@
+[
+    {
+      "path": "/images/alma_thomas.jpg",
+      "info": "Descrição da primeira imagem",
+      "link": "https://example.com/image1"
+    },
+    {
+      "path": "/images/amy_sherald.jpg",
+      "info": "Descrição da segunda imagem",
+      "link": "https://example.com/image2"
+    },
+    {
+      "path": "/images/basquiat.jpg",
+      "info": "Descrição da terceira imagem",
+      "link": "https://example.com/image3"
+    }
+  
+  ]
+  
