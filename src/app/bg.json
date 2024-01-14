@@ -1,19 +1,37 @@
 [
     {
       "path": "/images/alma_thomas.jpg",
-      "info": "Descrição da primeira imagem",
+      "info": "imagem: Alma Thomas",
       "link": "https://example.com/image1"
     },
     {
       "path": "/images/amy_sherald.jpg",
-      "info": "Descrição da segunda imagem",
+      "info": "imagem: Amy Sherald",
       "link": "https://example.com/image2"
     },
     {
       "path": "/images/basquiat.jpg",
-      "info": "Descrição da terceira imagem",
+      "info": "imagem: Basquiat",
       "link": "https://example.com/image3"
-    }
+    },
+
+    {
+        "path": "/images/keith.jpg",
+        "info": "imagem: Keith Haring",
+        "link": "https://example.com/image3"
+      },
+
+      {
+        "path": "/images/mangovo.jpg",
+        "info": "imagem: Cristiano Mangovo",
+        "link": "https://example.com/image3"
+      },
+
+      {
+        "path": "/images/mangovo.webp",
+        "info": "imagem: Cristiano Mangovo",
+        "link": "https://example.com/image3"
+      }
   
   ]
   

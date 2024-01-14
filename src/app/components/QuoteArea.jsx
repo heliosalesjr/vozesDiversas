@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import { FaFistRaised } from 'react-icons/fa';
 import { BsRainbow } from 'react-icons/bs';
+import BackgroundImage from './BackgroundImage';
+import { bgImages } from './bgImages';
 
 function QuoteArea() {
   const [quote, setQuote] = useState('');
@@ -40,14 +42,10 @@ function QuoteArea() {
   };
 
   return (
-    <div
-      className="flex flex-col h-screen justify-center items-center"
-      style={{
-        backgroundImage: 'url("/images/basquiat.jpg")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
+    <div className='flex flex-col h-screen justify-center items-center'
+      
     >
+        <BackgroundImage images={bgImages} />
       <div
         className="bg-white max-w-3xl bg-opacity-50 backdrop-filter backdrop-blur-md p-6 rounded-lg shadow-lg m-2 flex flex-col justify-start items-start hover:shadow-lg transition-all duration-300"
       >
