@@ -12,7 +12,7 @@ function NavBar() {
   return (
     <>
       <div className="navbar bg-base-100">
-        <div className={`flex-1 ${menuOpen ? 'hidden' : ''}`}>
+        <div className={`flex-1`}>
           <a className="btn btn-ghost normal-case text-xl">Ornitorrinco</a>
         </div>
         <div className={`hidden md:flex ${menuOpen ? 'hidden' : ''}`}>

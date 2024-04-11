@@ -45,7 +45,7 @@ function QuoteArea() {
     <div className='flex flex-col h-screen justify-center items-center'
       
     >
-        <BackgroundImage images={bgImages} />
+        
       <div
         className="bg-white max-w-3xl bg-opacity-50 backdrop-filter backdrop-blur-md p-6 rounded-lg shadow-lg m-2 flex flex-col justify-start items-start hover:shadow-lg transition-all duration-300"
       >
