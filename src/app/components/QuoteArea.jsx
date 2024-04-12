@@ -3,8 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaFistRaised } from 'react-icons/fa';
 import { BsRainbow } from 'react-icons/bs';
-import BackgroundImage from './BackgroundImage';
-import { bgImages } from './bgImages';
+
 
 function QuoteArea() {
   const [quote, setQuote] = useState('');
@@ -19,7 +18,7 @@ function QuoteArea() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('/dummy.json');
+      const response = await fetch(`../dummy.json?${Date.now()}`);
       const data = await response.json();
       const randomItem = getRandomItem(data);
       setQuote(randomItem.quote);
@@ -55,6 +54,7 @@ function QuoteArea() {
           {isBlack && <FaFistRaised className='text-4xl text-gray-700'/>}
           {isRainbow && <BsRainbow className='text-5xl text-pink-700'/>}
         </div>
+        
         <button className="btn btn-primary mx-auto" onClick={handleNewQuoteClick}>Nova Citação</button>
       </div>
     </div>
